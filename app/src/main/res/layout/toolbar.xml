@@ -4,18 +4,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="wrap_content"
     android:id="@id/toolbar"
-    android:theme="@style/AppTheme.NoActionBar"
+    android:theme="@style/AppTheme"
     android:background="@color/colorPrimary"
     android:elevation="0dp"
     android:minHeight="68dp">
 
     <TextView
+        android:text="DonoMatch"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:textColor="@color/white"
-        android:text="DonoMatch"
         android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/on_color_large"
+        android:id="@+id/imageView2"/>
 
 
 

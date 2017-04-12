@@ -3,13 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/share"
-        android:icon="@drawable/ic_menu_black_24dp"
+    <item android:id="@+id/settings"
+        android:icon="@drawable/settingsimage"
         android:orderInCategory="100"
-        android:title="Share"
+        android:title=""
         app:showAsAction="always"
         android:tint="@color/white"/>
-
 
 
 </menu>

@@ -59,6 +59,10 @@
             android:name=".GetProfile"
             android:theme="@style/AppTheme.NoActionBar"
             android:label="GetProfile" />
+        <activity
+            android:name=".SpecItem"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="SpecItem" />
 
     </application>
 
