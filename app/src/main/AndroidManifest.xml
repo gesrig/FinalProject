@@ -60,10 +60,25 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:label="GetProfile" />
         <activity
-            android:name=".SpecItem"
+            android:name=".SelectionActivity"
             android:theme="@style/AppTheme.NoActionBar"
-            android:label="SpecItem" />
-
+            android:label="SelectionActivity" />
+        <activity
+            android:name=".MapActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="MapActivity" />
+        <activity
+            android:name=".FoodActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="FoodActivity" />
+        <activity
+            android:name=".ToyActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="ToyActivity" />
+        <activity
+            android:name=".ClothesActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="ClothesActivity" />
     </application>
 
 </manifest>

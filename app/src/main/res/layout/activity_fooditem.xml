@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+
+    <TextView
+        android:text="foodItemTBD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/foodTitle"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28sp"
+        android:fontFamily="casual"
+        android:layout_marginTop="10dp"
+        android:textStyle="normal|bold" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Type (ex. Beans for Canned food)"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/ExpDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Expiration Date"
+            android:inputType="date"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimary" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/foodQuant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Quantity of Food in lbs"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimary" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+        <EditText
+            android:id="@+id/foodBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Brand of Food (if applicable)"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorPrimary" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+</LinearLayout>

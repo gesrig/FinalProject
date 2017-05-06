@@ -100,7 +100,7 @@
         android:theme="@style/TextLabel">
 
         <EditText
-            android:id="@+id/Distance"
+            android:id="@+id/Miles"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -117,7 +117,7 @@
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:layout_marginTop="20dp"
-        android:id="@+id/button"
+        android:id="@+id/giveButton"
         android:padding="5dp"
         android:background="@color/colorAccent"/>
 

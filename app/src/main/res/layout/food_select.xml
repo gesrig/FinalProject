@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+
+    <TextView
+        android:text="Food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/GiveProfMessage"
+        android:textSize="25sp" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextLabel">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Perishable?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/perishable"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/yesPerish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YES" />
+
+    <RadioButton
+        android:id="@+id/noPerish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO" />
+
+
+    <TextView
+        android:text="Expiration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/expiration"
+        android:textSize="25sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/month"
+            android:layout_width="40dp"
+            android:layout_height="40sp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:text="/"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/slash"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="50dp"
+            android:layout_height="40sp"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Servings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/serving"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/servingSize"
+        android:layout_width="40dp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:text="Add Item"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/addFoodButton"
+        android:padding="5dp"
+        android:background="@color/colorAccent"/>
+
+
+</LinearLayout>

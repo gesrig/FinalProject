@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+
+    <TextView
+        android:text="Condition?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/condition"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/newItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New" />
+
+    <RadioButton
+        android:id="@+id/usedSlightly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Used(Good Condition)" />
+
+    <RadioButton
+        android:id="@+id/usedLot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Used(Fairly Worn)" />
+
+    <TextView
+        android:text="Size?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/size"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/xl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XL" />
+
+    <RadioButton
+        android:id="@+id/large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="L" />
+
+    <RadioButton
+        android:id="@+id/medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M" />
+
+    <RadioButton
+        android:id="@+id/small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S" />
+
+    <RadioButton
+        android:id="@+id/xs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XS" />
+
+    <TextView
+        android:text="Quantity?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/quant"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="40dp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:text="Add Item"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/addClothesButton"
+        android:padding="5dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

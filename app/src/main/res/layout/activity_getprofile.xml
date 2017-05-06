@@ -36,7 +36,7 @@
         android:theme="@style/TextLabel">
 
         <EditText
-            android:id="@+id/State"
+            android:id="@+id/StateR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -52,7 +52,7 @@
         android:theme="@style/TextLabel">
 
         <EditText
-            android:id="@+id/City"
+            android:id="@+id/CityR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -68,7 +68,7 @@
         android:theme="@style/TextLabel">
 
         <EditText
-            android:id="@+id/StreetAddress"
+            android:id="@+id/StreetAddressR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -84,7 +84,7 @@
         android:theme="@style/TextLabel">
 
         <EditText
-            android:id="@+id/ZipCode"
+            android:id="@+id/ZipCodeR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -100,7 +100,7 @@
         android:theme="@style/TextLabel">
 
         <EditText
-            android:id="@+id/Distance"
+            android:id="@+id/PickUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -117,7 +117,7 @@
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
         android:layout_height="75dp"
-        android:id="@+id/button"
+        android:id="@+id/getButton"
         android:padding="5dp"
         android:background="@color/colorAccent"/>
 
